@@ -1,0 +1,68 @@
+.main {
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 1rem;
+}
+h1{
+    font-family: Arial;
+    font-size: 2.2rem;
+}
+
+
+.search {
+    margin-top: 1rem;
+}
+
+#query {
+    height: 2.1rem;
+    width: 15rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+#imgBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#search {
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: transparent;
+    border-radius: .1rem;
+    background-color: #54c254;
+    color: white;
+}
+
+#trending{
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: transparent;
+    border-radius: .1rem;
+    background-color: #d04a4a;
+    color: white;
+}
+
+#divImg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border: .05rem solid black;
+    padding-bottom: 3rem;
+}
+
+#imgText {
+    position: absolute;
+    bottom: -1rem;
+    font-size: 1.5rem;
+    font-family: "Arial Black";
+}
+
